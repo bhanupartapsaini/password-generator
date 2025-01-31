@@ -9,10 +9,10 @@ The Password Generator is a simple web tool that helps users create secure and r
 
 <h2>How It Works</h2>
   <ol>
-<li>**Select Password Options** – Users can choose which types of characters they want to include.</li>
-<li>**Set Password Length** – Users can specify the desired length of the password.</li>
-<li>**Generate Password** – Clicking the "Generate" button creates a random password based on the selected options.</li>
-<li>**Copy Password** – The "Copy" button allows users to copy the generated password to the clipboard for easy use.</li>
+<li><b>Select Password Options</b> – Users can choose which types of characters they want to include.</li>
+<li><b>Set Password Length</b> – Users can specify the desired length of the password.</li>
+<li><b>Generate Password</b> – Clicking the "Generate" button creates a random password based on the selected options.</li>
+<li><b>Copy Password</b> – The "Copy" button allows users to copy the generated password to the clipboard for easy use.</li>
 </ol>
 
 This tool is perfect for improving online security by creating strong passwords that are difficult to guess. 🚀
