@@ -97,7 +97,7 @@ body{
 }
 
 /* Mobile Devices */
-@media (max-width: 480px) {
+@media (max-width: 450px) {
     body {
         padding: 20px; /* Prevents content from touching edges */
     }
