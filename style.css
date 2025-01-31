@@ -8,6 +8,8 @@ body{
     overflow: hidden;
 }
 
+
+
 #password-generator{
     background-color: whitesmoke;
     border: 5px solid lightgray;
@@ -70,4 +72,60 @@ body{
     height: 50px;
     font-size: 1em;
     cursor: pointer;
+}
+
+/* Tablets & Small Screens */
+@media (max-width: 768px) {
+    #password-generator {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    #result {
+        font-size: 1.5em;
+        padding: 8px;
+    }
+
+    #options {
+        grid-template-columns: 1fr; /* Stack options in one column */
+    }
+
+    #generate-button {
+        width: 100%; /* Make button take full width */
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+    body {
+        padding: 20px; /* Prevents content from touching edges */
+    }
+
+    #password-generator {
+        width: 100%;
+        padding: 15px;
+        border-radius: 15px; /* Smaller border radius for a better look */
+    }
+
+    #result {
+        font-size: 1.2em;
+        word-wrap: break-word; /* Ensures long passwords don't overflow */
+    }
+
+    #copy-button {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    #options label {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    #generate-button {
+        width: 100%;
+        height: 45px;
+        font-size: 1em;
+    }
 }
