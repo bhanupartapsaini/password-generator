@@ -96,35 +96,46 @@ body{
     }
 }
 
-/* Mobile Devices */
-@media (max-width: 450px) {
+/* General Mobile Optimization */
+@media (max-width: 600px) {
     body {
-        padding: 20px; /* Prevents content from touching edges */
+        padding: 10px; /* Ensure content does not touch screen edges */
     }
 
     #password-generator {
-        width: 100%;
+        width: 95%; /* Make it almost full width */
+        height: auto; /* Allow height to adjust dynamically */
         padding: 15px;
-        border-radius: 15px; /* Smaller border radius for a better look */
+        border-radius: 15px; /* Slightly smaller rounded corners */
+    }
+
+    #password {
+        display: flex;
+        flex-direction: column; /* Stack password and copy button */
+        gap: 5px; /* Add space between elements */
     }
 
     #result {
-        font-size: 1.2em;
-        word-wrap: break-word; /* Ensures long passwords don't overflow */
+        font-size: 1.3em;
+        word-wrap: break-word; /* Prevents text overflow */
+        text-align: center; /* Ensures text stays readable */
     }
 
     #copy-button {
-        padding: 8px;
-        font-size: 0.9em;
+        width: 100%; /* Make button take full width */
+    }
+
+    #options {
+        grid-template-columns: 1fr; /* Stack checkboxes in one column */
     }
 
     #options label {
+        text-align: left;
         padding: 8px;
-        font-size: 0.9em;
     }
 
     #generate-button {
-        width: 100%;
+        width: 100%; /* Full width button for easier tap */
         height: 45px;
         font-size: 1em;
     }
